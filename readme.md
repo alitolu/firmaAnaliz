@@ -1,4 +1,4 @@
-# Firma Analiz ve E-Posta Şablonu Oluşturma Aracı
+# Yapay Zeka ile Firma Analiz ve E-Posta Şablonu Oluşturma Aracı
 
 ## Proje Hakkında
 Bu proje, B2B pazarlamada kullanılmak üzere firma analizleri yapar ve bu analizlere dayalı kişiselleştirilmiş e-posta kampanyaları oluşturmayı kolaylaştırır.
