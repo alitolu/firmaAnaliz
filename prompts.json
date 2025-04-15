@@ -1,0 +1,49 @@
+{
+  "company_analysis": {
+    "description": "Firma bilgilerini analiz etmek için kullanılan prompt",
+    "text": "Aşağıdaki firma bilgilerini analiz et ve bu firmanın ne iş yaptığını, güçlü yönlerini, ve dijital medya/yazılım ihtiyaçları olabilecek noktaları belirt:\n\nFirma Adı: {{firma_adi}}\nFaaliyet Alanı: {{faaliyet_alani}}\nAçıklama: {{aciklama}}\nÜrün/Hizmetler: {{urun_hizmetler}}\nWebsite: {{website}}\n\nAnaliz şu noktaları içermeli:\n1. Firmanın ana faaliyet alanı\n2. Güçlü olduğu alanlar\n3. Dijital pazarlama/yazılım ihtiyaçları olabilecek noktalar\n4. Müşterilerine sağladığı değer"
+  },
+  "email_template": {
+    "description": "Firma analizine dayalı e-posta şablonu oluşturmak için kullanılan prompt",
+    "text": "Aşağıdaki firma bilgileri ve analizini kullanarak, bu firmaya yönelik kişiselleştirilmiş bir tanıtım e-postası oluştur:\n\nFirma Adı: {{firma_adi}}\nFaaliyet Alanı: {{faaliyet_alani}}\nWebsite: {{website}}\n\nFirma Analizi: {{analiz}}\n\nE-posta şu kriterlere uygun olmalı:\n1. Profesyonel ve saygılı bir ton kullan\n2. E-posta maksimum 3-4 paragraf uzunluğunda olmalı\n3. Firma ve sektörüne özel dijital pazarlama/yazılım çözümleri öner\n4. Somut örnekler ve potansiyel faydalar belirt\n5. Telefon veya e-posta ile iletişime geçmek için bir çağrı içermeli\n6. 'Bay/Bayan {{yonetici_adi}}' ile hitap etmeli (eğer yönetici adı yoksa 'Yetkili' kullan)\n7. İmza olarak 'Ali Tosun, Dijital Pazarlama ve Yazılım Uzmanı' bilgilerini ekle"
+  },
+  "web_scraping": {
+    "description": "Web sitesinden firma bilgilerini çıkarmak için kullanılan prompt",
+    "text": "Aşağıdaki HTML içeriğinden firma bilgilerini çıkar:\n\n{{html_content}}\n\nŞu bilgileri JSON formatında döndür:\n- Firma Adı\n- Faaliyet Alanı\n- İletişim Bilgileri\n- Açıklama/Hakkında\n- Ürün/Hizmetler"
+  },
+  "gemini_analysis": {
+    "description": "Gemini API için firma analiz promptu",
+    "text": "Aşağıdaki firma bilgilerini analiz et ve bu firmanın ne iş yaptığını, güçlü yönlerini, ve dijital medya/yazılım ihtiyaçları olabilecek noktaları belirt:\n\nFirma Adı: {{firma_adi}}\nFaaliyet Alanı: {{faaliyet_alani}}\nAçıklama: {{aciklama}}\nÜrün/Hizmetler: {{urun_hizmetler}}\nWebsite: {{website}}\n\nAnaliz şu noktaları içermeli:\n1. Firmanın ana faaliyet alanı\n2. Güçlü olduğu alanlar\n3. Dijital pazarlama/yazılım ihtiyaçları olabilecek noktalar\n4. Müşterilerine sağladığı değer"
+  },
+  "company_scraper": {
+    "description": "Alternatif firma scraper için prompt",
+    "text": "Aşağıdaki URL'den firma bilgilerini çıkar: {{url}}\n\nŞu bilgileri JSON formatında döndür:\n- Firma Adı\n- Faaliyet Alanı\n- İletişim Bilgileri (e-posta, telefon, adres)\n- Açıklama/Hakkında\n- Ürün/Hizmetler\n- Yöneticiler/Ekip (varsa)"
+  },
+  "prompts": [
+    {
+      "id": 1,
+      "title": "General Question",
+      "text": "Answer the following question in detail:"
+    },
+    {
+      "id": 2,
+      "title": "Code Example",
+      "text": "Write a code example for the following task:"
+    },
+    {
+      "id": 3,
+      "title": "Explanation",
+      "text": "Explain the following concept in simple terms:"
+    },
+    {
+      "id": 4,
+      "title": "Translation",
+      "text": "Translate the following text:"
+    },
+    {
+      "id": 5,
+      "title": "Summary",
+      "text": "Summarize the following text:"
+    }
+  ]
+}
